@@ -3,6 +3,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import MVLogo from '../public/MVLogo.png'
 
 export default function Home() {
   return (
@@ -15,13 +16,14 @@ export default function Home() {
 
       <main className={styles.main}>
         
-      <a>Hello World</a>
+      
       <Image
-        src=""
+        src={MVLogo}
         alt="logo"
-        width={500}
-        height={500}
+        width={250}
+        height={250}
       />
+      <a>Megan Veaudry</a>
       </main>
 
       <footer className={styles.footer}>
