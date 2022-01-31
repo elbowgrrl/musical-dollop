@@ -26,10 +26,11 @@ export default function Home() {
         placeholder="blur"
       />
       </a>
+      <h2>Megan Veaudry</h2>
       <span>
       <Link href="/about"><a>About </a></Link>
       <Link href="/projects"><a>Projects </a></Link>
-      <Link href="/Contact"><a>Contact</a></Link>
+      <Link href="/contact"><a>Contact</a></Link>
       </span>
       </main>
 
