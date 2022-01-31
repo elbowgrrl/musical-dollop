@@ -17,19 +17,20 @@ export default function Home() {
 
       <main className={styles.main}>
         
-      
+      <a href="/projects">
       <Image
-        href="/projects"
         src={MVLogo}
         alt="logo"
         width={200}
         height={200}
         placeholder="blur"
       />
-      <Link href="/about"><a>About</a></Link>
-      <Link href="/projects"><a>Projects</a></Link>
+      </a>
+      <span>
+      <Link href="/about"><a>About </a></Link>
+      <Link href="/projects"><a>Projects </a></Link>
       <Link href="/Contact"><a>Contact</a></Link>
-      
+      </span>
       </main>
 
       <footer className={styles.footer}>
