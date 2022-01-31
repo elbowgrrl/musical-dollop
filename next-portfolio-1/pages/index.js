@@ -14,7 +14,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
+        
+      <a>Hello World</a>
+      <Image
+        src=""
+        alt="logo"
+        width={500}
+        height={500}
+      />
       </main>
 
       <footer className={styles.footer}>
