@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import MVLogo from '../public/MVLogo.png'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,12 +19,17 @@ export default function Home() {
         
       
       <Image
+        href="/projects"
         src={MVLogo}
         alt="logo"
-        width={250}
-        height={250}
+        width={200}
+        height={200}
+        placeholder="blur"
       />
-      <a>Megan Veaudry</a>
+      <Link href="/about"><a>About</a></Link>
+      <Link href="/projects"><a>Projects</a></Link>
+      <Link href="/Contact"><a>Contact</a></Link>
+      
       </main>
 
       <footer className={styles.footer}>
