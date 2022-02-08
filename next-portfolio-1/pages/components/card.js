@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-function Projects() {
+function ProjectCard() {
   return (
     <main>
       <h1>Projects</h1>
@@ -37,4 +37,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectCard;
