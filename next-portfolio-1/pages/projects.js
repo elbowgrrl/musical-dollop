@@ -2,43 +2,31 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+//not sure if this path is correct
+import data from ".//library/projectsdata.json"
 
-const projectData = [
-  {
-    id: 1,
-    title: "project1",
-    desc: "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
-    img: "https://i.imgur.com/7juREyw.png"
-  },
-  {
-    id: 2,
-    title: "project1",
-    desc: "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
-    img: "https://i.imgur.com/N6xA7mN.jpeg"
-  },
-  {
-    id: 3,
-    title: "project1",
-    desc: "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
-    img: "https://i.imgur.com/7juREyw.png"
-  },
-  {
-    id: 4,
-    title: "project1",
-    desc: "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
-    img: "https://i.imgur.com/7juREyw.png"
-  },
-  {
-    id: 5,
-    title: "project1",
-    desc: "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
-    img: "https://i.imgur.com/7juREyw.png"
-  },
-  {
-    id: 6,
-    title: "project1",
-    desc: "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
-    img: "https://i.imgur.com/7juREyw.png"
-  }
-];
+export async function getStaticProps() {
+  
+  const allData = await data;
 
+  return {
+    props: {
+      allData,
+    },
+  };
+}
+
+export default function Projects({ allData }) {
+  const projectData = allData.projectData
+  
+  return (
+    <div>
+    <h1>Projects</h1>
+    {/* Checking to see if props are coming through */}
+    <span>{projectData[0].title}</span>
+    <Link href="/"><a>Home</a></Link>
+    </div>
+  );
+  
+
+};
