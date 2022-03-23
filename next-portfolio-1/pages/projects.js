@@ -18,6 +18,7 @@ export async function getStaticProps() {
 
 export default function Projects({ allData }) {
   const projectData = allData.projectData
+  console.log(projectData)
   
   return (
     <div>

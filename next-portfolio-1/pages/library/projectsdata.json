@@ -1,44 +1,30 @@
  { "projectData" : [
   {
     "id": 1,
-    "title": "project1",
-    "desc": "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
+    "title": "Memory Match",
+    "desc": "A simple game built using React that has an urban gardening theme. Created as an exercise to deepen my understanding of React, this simple game is fun to play and has an urban gardening theme. See the live demo <a href=\"https://react-memory-game-kappa.vercel.app/\">here</a> ",
     "img": "https://i.imgur.com/7juREyw.png",
     "date": "2021-02-21"
   },
   {
     "id": 2,
-    "title": "project1",
+    "title": "Ally",
     "desc": "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
     "img": "https://i.imgur.com/7juREyw.png",
     "date": "2021-02-21"
   },
   {
     "id": 3,
-    "title": "project1",
-    "desc": "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
+    "title": "Design Internship with Moken",
+    "desc": "In my design internship with Moken (set to terminate Nov 30th 2021) I have gained hands on experience in UX research and design under the supervision of a Mentor.  Because the project is ongoing, I am not at liberty to speak about it in detail but my work has included: <ul><li>Developing user personas</li><li>Developing user personas</li><li>Mapping customer journeys</li><li>Competitor research and research synthesis</li><li>Mapping user flows </li><li>Identifying user pain points</li><li>Developing and maintaining product documentation</li></ul>.",
     "img": "https://i.imgur.com/7juREyw.png",
     "date": "2021-02-21"
   },
   {
     "id": 4,
-    "title": "project1",
-    "desc": "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
+    "title": "Next.js Photo Gallery",
+    "desc": "This is a design and development project that I completed since graduating from Lighthouse Labs. The goal was to create a tidy, responsive UI for a user to showcase their photography. Implemented with Next.js and Node.js",
     "img": "https://i.imgur.com/7juREyw.png",
     "date": "2021-02-21"
-  },
-  {
-    "id": 5,
-    "title": "project1",
-    "desc": "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
-    "img": "https://i.imgur.com/7juREyw.png",
-    "date": "2021-02-21"
-  },
-  {
-    "id": 6,
-    "title": "project1",
-    "desc": "Ally is a mood boosting app with a textless/languageless UI providing users with a nonintrusive space to let go of their thoughts with calming interactions and a relaxing, enjoyable sensory experience.",
-    "img": "https://i.imgur.com/7juREyw.png",
-    "date": "2021-02-21"
-  } 
+  }
 ]}
