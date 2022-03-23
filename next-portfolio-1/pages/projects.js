@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Card from "pages/components/card.js"
 import Link from 'next/link'
-//not sure if this path is correct
 import data from ".//library/projectsdata.json"
 
 export async function getStaticProps() {
@@ -23,8 +23,13 @@ export default function Projects({ allData }) {
   return (
     <div>
     <h1>Projects</h1>
-    {/* Checking to see if props are coming through */}
-    <span>{projectData[0].title}</span>
+    {/* Need to map this instead */}
+    <Card
+    id={projectData.id}
+    title={projectData.title}
+    desc={projectData.desc}
+    img={projectData.img}
+    date={projectData.date}/>
     <Link href="/"><a>Home</a></Link>
     </div>
   );

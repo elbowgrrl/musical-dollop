@@ -1,4 +1,5 @@
 //Built with node version 16.13.1
+// start with 'npm run dev' to run server in dev mode
 
 import Head from 'next/head'
 import Image from 'next/image'
